@@ -1,0 +1,85 @@
+@import "tailwindcss";
+@media only screen and (max-width: 992px) {
+  .hide-on-small1 {
+    display: none !important;
+  }
+  .slider{
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .hide-on-small {
+    display: none !important;
+  }
+  .header{
+    justify-content: space-between !important;
+   }
+   .login{
+    width: 30% !important;
+    
+   }
+   .section2{
+    flex-direction: column !important;
+    
+   }
+   .section2-main{
+    width: 100% !important;
+    padding: 20px !important;
+    
+   }
+}
+@media only screen and (max-width: 576px) {
+ .cart{
+    width: 70% !important;
+
+ }
+ .font-res{
+    font-size: 22px !important;
+ }
+ .btn-res{
+    font-size: 10px !important;
+    height: 30px !important;
+    padding: 5px 20px !important;
+ }
+ .footer-end{
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+ }
+ .input{
+  width: 50% !important;
+ }
+ .header{
+  justify-content: space-between !important;
+ }
+ .login{
+  width: 30% !important;
+  
+ }
+}
+@media only screen and (max-width: 450px){
+  .input{
+    width: 50% !important;
+  }
+  .header{
+    justify-content: space-between !important;
+   }
+   .login{
+    width: 40% !important;
+    
+   }
+   ul li{
+    display: none !important;
+  
+  }
+  .contact{
+    flex-direction: column !important;
+    gap: 10px !important;
+  }
+  .font-res{
+    font-size: 17px !important;
+ }
+ .header-links{
+  display: none !important;
+ }
+}
